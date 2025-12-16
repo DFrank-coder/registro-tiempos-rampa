@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Tiempos Rampa</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+
+</head>
+<body>
+
+  <h1>Registro de Tiempos en Rampa ✈️</h1>
+  <input id="vuelo" placeholder="Vuelo (ej: FO1234)">
+  <input id="matricula" placeholder="Matrícula (ej: LV-KJD)">
+  <input id="aeropuerto" placeholder="Aeropuerto (ej: CNQ)">
+  <button onclick="guardarDatosVuelo()" class="btn-guardar">
+  Guardar datos del vuelo
+  </button>
+
+
+
+  <button onclick="registrar('Aterrizaje')">Aterrizaje</button>
+  <button onclick="registrar('Puesta de calzas')">Puesta de calzas</button>
+  <button onclick="registrar('Puesta EA delantera')">Puesta EA delantera</button>
+  <button onclick="registrar('Puesta EA trasera')">Puesta EA trasera</button>
+  <button onclick="registrar('Apertura Bodega delantera')">Apertura Bodega delantera</button>
+  <button onclick="registrar('Apertura Bodega trasera')">Apertura Bodega trasera</button>
+  <button onclick="registrar('Inicio descarga delantera')">Inicio descarga delantera</button>
+  <button onclick="registrar('Inicio descarga trasera')">Inicio descarga trasera</button>
+  <button onclick="registrar('Fin carga delantera')">Fin carga delantera</button>
+  <button onclick="registrar('Fin carga trasera')">Fin carga trasera</button>
+  <button onclick="registrar('Cierre bodegas')">Cierre bodegas</button>
+  <button onclick="registrar('Quite EA delantera')">Quite EA delantera</button>
+  <button onclick="registrar('Quite EA trasera')">Quite EA trasera</button>
+  <button onclick="registrar('Quite calzas')">Quite calzas</button>
+  <button onclick="registrar('Movimiento')">Movimiento</button>
+
+
+  <div class="log" id="log">
+    <h3>Registros</h3>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="fecha.js"></script>
+  <script src="exportar.js"></script>
+  <script src="datos-vuelo.js"></script>
+  <script src="borrar.js"></script>
+  <script src="por-vuelo.js"></script>
+  <script src="cargar-vuelo.js"></script>
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js');
+  }
+</script>
+
+
+
+  <button onclick="borrarRegistros()" style="background:#dc2626">
+  Borrar registros
+  </button>
+  <button onclick="guardarRegistrosPorVuelo()" class="btn-guardar">
+  Guardar registros por vuelo
+  </button>
+  <button onclick="cargarVueloGuardado()">
+  Cargar registros del vuelo
+  </button>
+
+
+
+  <button onclick="exportarCSV()">Exportar a Excel</button>
+ 
+</body>
+</html>
