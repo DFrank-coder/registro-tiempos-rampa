@@ -1,3 +1,6 @@
+✈️ App desarrollada y utilizada en producción por el equipo de rampa
+de Flybondi en la escala Corrientes (CNQ), Argentina.
+
 # Registro de Tiempos de Rampa.
 
 Progressive Web App para registrar tiempos operativos de rampa en operaciones aeroportuarias.
@@ -19,9 +22,15 @@ Progressive Web App para registrar tiempos operativos de rampa en operaciones ae
 
 ## Uso
 1. Cargar datos del vuelo
-2. Registrar tiempos operativos
-3. Guardar por vuelo
-4. Exportar o recuperar registros
+
+## Autor
+
+Franco Alejandro Gallegillo
+Supervisor de Rampa — Flybondi Líneas Aéreas, Escala CNQ
+[GitHub](https://github.com/DFrank-coder)
+3. Registrar tiempos operativos
+4. Guardar por vuelo
+5. Exportar o recuperar registros
 
 ## Autor
 Franco Alejandro Gallegillo
