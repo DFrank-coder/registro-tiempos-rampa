@@ -27,10 +27,16 @@ Progressive Web App para registrar tiempos operativos de rampa en operaciones ae
 
 Franco Alejandro Gallegillo
 Supervisor de Rampa — Flybondi Líneas Aéreas, Escala CNQ
+
 [GitHub](https://github.com/DFrank-coder)
-3. Registrar tiempos operativos
-4. Guardar por vuelo
-5. Exportar o recuperar registros
+
+## Capturas
+
+![Vista móvil](images/IMG-20260519-WA0051.png)
+![Vista móvil](images/1001041919.png)
+
+
+
 
 ## Autor
 Franco Alejandro Gallegillo
