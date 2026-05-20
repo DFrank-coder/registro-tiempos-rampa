@@ -32,8 +32,8 @@ Supervisor de Rampa — Flybondi Líneas Aéreas, Escala CNQ
 
 ## Capturas
 
-![Vista móvil](images/IMG-20260519-WA0051.png)
-![Vista móvil](images/1001041919.png)
+![Vista móvil](images/IMG-20260519-WA0051.jpg)
+![Vista móvil](images/1001041919.jpg)
 
 
 
